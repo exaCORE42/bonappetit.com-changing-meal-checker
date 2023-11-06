@@ -1,7 +1,7 @@
 # bonappetit.com-changing-meal-checker
 Simple python program that checks for meals containing certain items in bonappetit.com menus that change daily.  An example of a menu that functions well with the program are menus on bonappetit.com from universities.  The program is hardcoded to try to label the food as either: lunch, breakfast, dinner, or brunch.  If it isn't in one of these categories it won't add to the RSS feed.
 
-If bonappetit.com changes the layout of the menu's, then the program might not work.
+If bonappetit.com changes the layout of the menu's, then the program might not work.  The program trys to detect possible errors by using 2 methods of checking for food (searching the HTML for 'button' classes containing the food name, reading the plain text on the page) and cross-comparing them. 
 ## Software Used
 - Python 3.11
 - beautifulsoup4 4.12.2
