@@ -47,3 +47,6 @@ No guarantees that the program will work with other versions of Python or the pa
           	Brunch	Saturday, November 11, 2023
           	Brunch	Sunday, November 12, 2023
         ERROR STATUS: NO ERRORS
+
+## TO-DO
+- [ ] Menu change checker that creates new RSS post if menu is changed  
